@@ -8,17 +8,18 @@ MaixPy Documentation
 
 ## What is MaixPy
 
-MaixPy ported [Micropython](http://micropython.org/) to [K210](https://kendryte.com/) (a 64-bit dual-core RISC-V CPU with hardware FPU and convolution accelerator). A project that supports MCU routine operations and integrates machine vision and microphone arrays to quickly develop intelligent applications in the `AIOT` field that are extremely cost effective and practical.
+MaixPy ported [Micropython](http://micropython.org/) to [K210](https://kendryte.com/) (a 64-bit dual-core RISC-V CPU with hardware FPU and convolution accelerator).  In addition to stardard MCU operations, MaixPy devices support integrated machine vision, neural network, and audio procesing capabilities enabling the development of cost effective AIOT applications.
 
 
-> MicroPython is a lean and efficient implementation of the Python 3 programming language that includes a small subset of the Python standard library and is optimised to run on microcontrollers and in constrained environments.
+> MicroPython is a lean and efficient implementation of the Python 3 programming language that includes a small subset of the Python standard library.  It is optimised to run on microcontrollers and in constrained environments.
 
-> K210 created for AIOT(AI+IOT) use, It's powerful performance and low cost are very competitive.
+> K210 created for AIOT(AI+IOT) use. Its powerful performance and low cost make it very competitive.
 
+Micropython makes programming on K210 hardware easier. The code is open source and can be found on [GitHub]((https://github.com/sipeed/MaixPy))
 
-Micropython makes programming on K210 hardware easier, the code is open source and can be found on [GitHub]((https://github.com/sipeed/MaixPy))
+To quickly give you an idea, here are a few code examples:
 
-For example if we want to find an **I2C** device, we just need this code:
+If we want to find an **I2C** device, we just need this code:
 ```python
 from machine import I2C
 
@@ -71,15 +72,15 @@ while True:
 
 ## About this documentation
 
-Everything related to MaixPy, mainly about
+This document describes:
 * How to get the hardware (the board).
-* How to get started with MaixPy even if you are not an expert in hardware programming.
-* Learn MicroPython language basics
-* Libraries (API) reference
+* How to get started with MaixPy, even if you are not an expert in embedded programming.
+* MicroPython language basics
+* Libraries and API reference
 
 ## Let's get started
 
-To get started, we need one dev board, there are three kind of boards:
+To get started you need a development board.  There are three kind of boards:
 
 * Dan dock with Sipeed M1(Dan) module
 
@@ -95,9 +96,9 @@ To get started, we need one dev board, there are three kind of boards:
 
 To get any of those boards, visit [Sipeed Official Website](https://sipeed.com/)
 
-More hardware infomation [here](en/hardware/hardware.md)
+More hardware infomation [here](./hardware/hardware.md)
 
-We can now start writing software, refer to [get started](en/get_started.md)
+To start writing software, refer to the [getting started](./get_started.md) section.
 
 
 ## Source code
