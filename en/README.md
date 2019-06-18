@@ -96,16 +96,15 @@ To get started you need a development board.  There are three kind of boards:
 
 To get any of those boards, visit [Sipeed Official Website](https://sipeed.com/)
 
-More hardware infomation [here](./hardware/hardware.md)
+More hardware infomation [here](hardware/hardware.md)
 
-To start writing software, refer to the [getting started](./get_started.md) section.
+To start coding, refer to the [getting started](get_started.md) section.
 
 
 ## Source code
 
-MaixPy source code [on GitHub](https://github.com/sipeed/MaixPy)
+MaixPy is maintained by &copy;<a href="https://www.sipeed.com" style="color: #f14c42">Sipeed</a> Co.,Ltd. and [other contributors](https://github.com/sipeed/MaixPy/graphs/contributors).  All source code is available [on GitHub](https://github.com/sipeed/MaixPy).
 
-Maintained by &copy;<a href="https://www.sipeed.com" style="color: #f14c42">Sipeed</a> Co.,Ltd. More contributors [here](https://github.com/sipeed/MaixPy/graphs/contributors)
 
 
 ## Source code of MaixPy documentation
